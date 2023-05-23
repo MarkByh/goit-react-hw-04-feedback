@@ -1,8 +1,3 @@
-.buttonList {
-  display: flex;
-  list-style-type: none;
-  gap: 15px;
-}
 .feedbackBtn {
   cursor: pointer;
 
@@ -14,6 +9,8 @@
 .feedbackBtn:hover {
   background-color: lightgray;
 }
-.satslist {
+.buttonList {
+  display: flex;
   list-style-type: none;
+  gap: 15px;
 }

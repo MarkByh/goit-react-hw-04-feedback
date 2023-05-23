@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import style from './style.module.css';
+import style from './feedback.module.css';
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <ul className={style.buttonList}>
     {options.map(option => (

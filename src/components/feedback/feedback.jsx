@@ -1,7 +1,7 @@
-import { Section } from './section';
+import { Section } from '../section/section';
 import { useState } from 'react';
-import { Statistics } from './statistics';
-import { Notification } from './notification';
+import { Statistics } from '../statistics/statistics';
+import { Notification } from '../notification/notification';
 import { FeedbackOptions } from './feedbackOptions';
 export const Feedback = () => {
   const [good, setGood] = useState(0);
